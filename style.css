@@ -1,0 +1,122 @@
+body{
+    background-image:url("assets/test.jpg");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+    text-align: center;
+    
+}
+
+.ml13 {
+    font-size: 100px;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    font-weight: 600;
+    color:white;
+    text-align: center;
+    margin-top:300px;
+}
+  
+  .ml13 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+
+  .ml14 {
+    font-weight: 100;
+    font-size: 100px;
+    color:white;
+  }
+  
+  .ml14 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.15em;
+  }
+  
+  .ml14 .line {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    transform-origin: 100% 100%;
+    bottom: 0;
+  }
+  
+  .ml14 .letter {
+    display: inline-block;
+    line-height: 1em;
+  } 
+
+
+#fname{
+    height:40px;
+    width: 400px;
+    padding:3px; 
+    font-size:30px;
+    
+}
+
+#fillName{
+    border-radius: 20px;
+    font-size: 100px;
+    height:300px;
+    width:70%;
+    background-color: transparent;
+    font-family: oblique;
+    margin:auto;
+    margin-top: 200px;
+    padding: 0px;
+    font-size: 60px;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+    text-align: center;
+   
+}
+
+#btn{
+    height:40px;
+    width: 500px;
+    font-size:25px;
+    border-radius: 30px;
+    
+}
+
+#main{
+    display: none;
+}
+
+#name{
+    color:white;
+    font-size:100px;
+}
+
+#heart{
+    animation: myanim 1s infinite;
+    font-size: 90px;
+}
+@keyframes myanim {
+    5% {
+       font-size: 100px;
+    }
+}
+
+#reload{
+    float:left;
+    margin:10px;
+    background-color: Transparent;
+    border:none;
+    font-size:60px;
+}
+
